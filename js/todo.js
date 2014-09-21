@@ -70,7 +70,7 @@ success: function(results) {
   
 
    var message=$$('.todo-items-list ');
-   console.log(object.get("foo"));
+  
   message.append("<ul><li>"+object.get("foo")+"</ul></li>")
   }
 },
