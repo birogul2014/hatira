@@ -62,7 +62,7 @@ var query = new Parse.Query(GameScore);
 query.descending("createdAt")
 query.find({
 success: function(results) {
-  console.log("Successfully retrieved " + results.length + " scores.");
+  //console.log("Successfully retrieved " + results.length + " scores.");
   // Do something with the returned Parse.Object values
   for (var i = 0; i < results.length; i++) { 
     var object = results[i];
